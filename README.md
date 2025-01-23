@@ -1,10 +1,4 @@
-It looks like the headings are not showing properly in the preview because of the formatting issue. The `#` symbols need to be followed by a space in order for them to render correctly as headings.
-
-Here’s the corrected version of your `README.md`:
-
-```markdown
 # DIP-Project - Filters and Image Enhancement App
-
 A Flask-based image processing web page that enables users to process images with advanced functionalities and ensures data persistence for input and result images using a database management system.
 
 ## Features
