@@ -1,7 +1,9 @@
-Here’s a sample `README.md` file for your project:
+It looks like the headings are not showing properly in the preview because of the formatting issue. The `#` symbols need to be followed by a space in order for them to render correctly as headings.
+
+Here’s the corrected version of your `README.md`:
 
 ```markdown
-#DIP-Project - # -Filters-and-Image-Enhancement-app
+# DIP-Project - Filters and Image Enhancement App
 
 A Flask-based image processing web page that enables users to process images with advanced functionalities and ensures data persistence for input and result images using a database management system.
 
@@ -62,21 +64,3 @@ DIP-Project/
 ├── .gitignore          # Git ignore rules
 └── README.md           # Project documentation
 ```
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Contribution
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
-
-## Contact
-For questions or feedback, please contact [Your Email Address].
-```
-
-### Steps to Add to VS Code:
-1. Open your project in VS Code.
-2. Create a new file named `README.md` in the root directory.
-3. Copy the content above and paste it into the file.
-4. Save the file.
-
-Let me know if you'd like to customize it further! 😊
