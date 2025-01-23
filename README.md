@@ -1,7 +1,7 @@
 Here’s a sample `README.md` file for your project:
 
 ```markdown
-# DIP-Project - # -Filters-and-Image-Enhancement-app
+#DIP-Project - # -Filters-and-Image-Enhancement-app
 
 A Flask-based image processing web page that enables users to process images with advanced functionalities and ensures data persistence for input and result images using a database management system.
 
