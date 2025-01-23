@@ -1,0 +1,53 @@
+# Ignore environment directory
+dip-env/
+env/
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Flask instance folder
+instance/
+
+# Log files
+*.log
+
+# Virtual environment
+venv/
+ENV/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Ignore static folder
+static/
+
+# System files
+.DS_Store
+

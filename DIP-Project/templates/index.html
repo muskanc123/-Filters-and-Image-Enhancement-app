@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Enhancement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .image-block {
+            margin: 10px;
+        }
+        img {
+            max-width: 300px;
+            max-height: 300px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Enhancement Algorithms</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required>
+        <button type="submit">Upload and Enhance</button>
+    </form>
+    <br>
+    {% if uploaded_image %}
+    <h2>Uploaded Image</h2>
+    <div class="container">
+        <div class="image-block">
+            <img src="{{ uploaded_image }}" alt="Uploaded Image">
+            <p>Original Image</p>
+        </div>
+    </div>
+    <h2>Enhanced Images</h2>
+    <div class="container">
+        {% for name, path in result_paths.items() %}
+        <div class="image-block">
+            <img src="{{ path }}" alt="{{ name }}">
+            <p>{{ name.capitalize() }} Filter</p>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</body>
+</html>
+
+
+
